@@ -1,0 +1,26 @@
+/* colocar shadorbox em torno deles */
+
+.botoes-externo {
+    width: 226px;
+    height: 78px;
+    background-color: #ffffffd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 1px rgb(114, 113, 113);
+}
+
+.botoes-interno {
+    height: 73px;
+    width: 220px;
+    border: dashed 2px;
+    border-radius: 5%;
+    background-color:  #cfcfcf;
+    font-family: 'Press Start 2P';
+    text-decoration: underline;
+
+}
+
+.botoes-interno:hover {
+    background-color: rgb(173, 173, 173);
+}
