@@ -18,9 +18,22 @@
     background-color:  #cfcfcf;
     font-family: 'Press Start 2P';
     text-decoration: underline;
+    cursor: pointer;
 
 }
 
 .botoes-interno:hover {
     background-color: rgb(173, 173, 173);
+}
+
+.botoes-interno:active {
+    border: none;
+   
+
+}
+
+.botoes-externo:active {
+background-color: transparent;
+box-shadow: none;
+transform: translate(10px,5px);
 }
