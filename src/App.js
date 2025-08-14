@@ -14,13 +14,9 @@ function App() {
       backgroundSize: 'contain',
       bottom:'-285px',
       position:'fixed',
-    
       
       }}></div>
      
-     
-     
-
       <div className='coracoes' >
         <img className='coracao' src='./imagens/8bit-heart.png' alt='coracoes'/>
         <img className='coracao' src='./imagens/8bit-heart.png' alt='coracoes'/>
@@ -32,14 +28,9 @@ function App() {
         <h1 className='titulo'>AOZORA BUY N'SOULD
           <img className='icone-moeda-titulo' src='./imagens/insert-coin.png' alt='imagem de moeda' />
         </h1>
-        
-
 
         <h4 className='sub-titulo'>GAMES</h4>
       </div>
-
-
-
 
       <div className='parte-principal' >
 
@@ -69,8 +60,6 @@ function App() {
         </div>
 
         <img className='estrela3'  src='./imagens/pixel-star.png' alt='estrela 8 bit' />
-
-
         <div className='card-4'>
           <h5>Equipamentos</h5>
           <Botoes texto = 'CARREGADOR'/>
@@ -80,15 +69,9 @@ function App() {
         <img className='bau' src='./imagens/open-chest.png' alt='bau' />
         <img className='personagem' src='./imagens/personagem.png' alt='bau' />
         
-        
       </div>
       
-
-
-     
     <Rodape />
-
-
 
     </div>
   );

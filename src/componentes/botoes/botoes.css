@@ -1,4 +1,3 @@
-/* colocar shadorbox em torno deles */
 
 .botoes-externo {
     width: 226px;
@@ -19,7 +18,6 @@
     font-family: 'Press Start 2P';
     text-decoration: underline;
     cursor: pointer;
-
 }
 
 .botoes-interno:hover {
@@ -28,8 +26,6 @@
 
 .botoes-interno:active {
     border: none;
-   
-
 }
 
 .botoes-externo:active {
