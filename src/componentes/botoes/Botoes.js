@@ -6,8 +6,10 @@ return (
         <button
         style={{whiteSpace:'pre-line'}} 
         className="botoes-interno" 
-        onClick={null}>
-            {texto}
+        onClick={() => {
+             navigator.clipboard.writeText(texto)
+            }}>
+        {texto}
         </button>
     </div>
 )
