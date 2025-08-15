@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/retro-react-practice/static/css/main.f8969b51.css",
-    "main.js": "/retro-react-practice/static/js/main.7a6bae5e.js",
+    "main.js": "/retro-react-practice/static/js/main.eb12ed77.js",
     "static/js/453.557693e6.chunk.js": "/retro-react-practice/static/js/453.557693e6.chunk.js",
     "index.html": "/retro-react-practice/index.html",
     "main.f8969b51.css.map": "/retro-react-practice/static/css/main.f8969b51.css.map",
-    "main.7a6bae5e.js.map": "/retro-react-practice/static/js/main.7a6bae5e.js.map",
+    "main.eb12ed77.js.map": "/retro-react-practice/static/js/main.eb12ed77.js.map",
     "453.557693e6.chunk.js.map": "/retro-react-practice/static/js/453.557693e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8969b51.css",
-    "static/js/main.7a6bae5e.js"
+    "static/js/main.eb12ed77.js"
   ]
 }
