@@ -13,7 +13,6 @@
 }
 
 .bloco-interrogacao {
-
 width: 90px;
 height: 90px;
 align-self: center;
@@ -27,9 +26,8 @@ h3 {
 .direitos {
   margin-top: 100px;
   white-space: nowrap;
-
 }
 
 .pagamento {
-  padding-top: 10px;
+  padding-top: 20px;
 }
