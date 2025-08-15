@@ -8,9 +8,7 @@ return (
         className="botoes-interno" 
         onClick={null}>
             {texto}
-
         </button>
-
     </div>
 )
 }

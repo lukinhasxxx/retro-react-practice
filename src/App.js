@@ -3,6 +3,27 @@ import Botoes from './componentes/botoes/Botoes.js';
 import Rodape from './componentes/botoes/rodape/Rodape.js';
 
 function App() {
+
+  const primeiraColuna = [
+  {id:1,nome:'DOUBLE\nDRAGON'},
+  {id:2,nome:'VECTORMAN\n MEGA DRIVE'},
+  {id:3,nome:'WOLFSTEIN\n 3D'}  
+  ]
+  const segundaColuna = [
+  {id:4,nome:'MINECRAFT'},
+  {id:5,nome:'ASSASSINS \n CREED'},
+  {id:6,nome:'F1 2010'} 
+  ]
+  const terceiraColuna = [  
+  {id:1,nome:'DOUBLE\nDRAGON'},
+  {id:2,nome:'VECTORMAN\n MEGA DRIVE'},
+  {id:3,nome:'WOLFSTEIN\n 3D'}  ]
+
+  const equipamentos = [
+  {id:10, nome:'CARREGADOR'},
+  {id:11, nome:'TAMPA'},
+  {id:12, nome:'FONTE'},
+  ]
   return (
     <div className="App">
   
@@ -36,36 +57,41 @@ function App() {
 
         <div className='card-1'>
           <h5>Jogos antigos</h5>
-          <Botoes texto={`DOUBLE\nDRAGON`}/>
-          <Botoes texto={`VECTORMAN\n MEGA DRIVE`}/>
-          <Botoes texto={`WOLFSTEIN\n 3D`}/>
+          {primeiraColuna.map(nomeBotao =>(<Botoes key={nomeBotao.id} texto={nomeBotao.nome}/>) )}
         </div>
+
+
 
         <img className='estrela1' src='./imagens/pixel-star.png' alt='estrela 8 bit' />
 
         <div className= 'card-2'>
           <h5>Jogos atuais</h5>
-          <Botoes texto= 'MINECRAFT' />
-          <Botoes texto= {`ASSASSINS \n CREED`} />
-          <Botoes texto= 'F1 2010' />
+          {segundaColuna.map(nomeBotao=>(<Botoes key={nomeBotao.id} texto={nomeBotao.nome} />))}
         </div>
 
         <img className='estrela2' src='./imagens/pixel-star.png' alt='estrela 8 bit' />
 
         <div className='card-3'>
           <h5>Consoles</h5>
-          <Botoes texto= 'NINTENDO'/>
-          <Botoes texto= 'XBOX'/>
-          <Botoes texto= {`PLAY\n STATION`}/>
+          {terceiraColuna.map(nomeBotao=>(<Botoes key={nomeBotao.id} texto={nomeBotao.nome} />))}
         </div>
 
         <img className='estrela3'  src='./imagens/pixel-star.png' alt='estrela 8 bit' />
+
+
+
+
+
+
+
+
+
+
         <div className='card-4'>
           <h5>Equipamentos</h5>
-          <Botoes texto = 'CARREGADOR'/>
-          <Botoes texto = 'TAMPA'/>
-          <Botoes texto= 'FONTE'/>
+          {equipamentos.map( nomeBotao => (<Botoes texto ={nomeBotao.nome} key={nomeBotao.id} />) )}
         </div>
+
         <img className='bau' src='./imagens/open-chest.png' alt='bau' />
         <img className='personagem' src='./imagens/personagem.png' alt='bau' />
         
