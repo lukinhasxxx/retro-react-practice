@@ -30,7 +30,7 @@ function App() {
     <div className="App">
   
   <div style={{ 
-      backgroundImage: "url('/imagens/testeBackground.png')",
+      backgroundImage: "url('imagens/testeBackground.png')",
       width:'1920px',
       height:'1080px',
       backgroundRepeat: 'no-repeat',
